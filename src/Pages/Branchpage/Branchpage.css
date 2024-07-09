@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.branch {
+    width: 100%;
+    /* background-color: darkgray; */
+}
+.branch-magic {
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    border:  1px solid black;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.branch-adres {
+    margin-left: 40px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+.branch-street {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.branch-work {
+    margin-left: 100px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    color: darkgray;
+}
+.branch-oclock {
+    margin-left: 100px;
+    margin-top: 10px;   
+}

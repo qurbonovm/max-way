@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list-name:hover {
+    cursor: pointer;
+    width: 30px;
+    height: 15px;
+}
+.food-list-one {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.food-list-two {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.food-list-three {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.food-list-1 {
+    width: 250px;
+    height: 350px;
+    box-shadow: 2px 2px 2px 2px rgb(136, 136, 173);
+    border-radius: 10px;
+}
+/* .food-list-1:hover {
+    width: 230px;
+    height: 330px;
+    cursor: pointer;
+    
+} */
+.food-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.food-title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.food-text {
+    font-weight: 400;
+    font: size 50px;
+    font-family: sans-serif;
+    color: rgb(199, 208, 218);
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.food-num {
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.food-btn {
+    width: 90px;
+    height: 35px;
+    margin-right: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+.food-btn:hover {
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
